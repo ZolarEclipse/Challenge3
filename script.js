@@ -6,6 +6,7 @@ function collectEmployees() {
   let employees = [];
   let addEmployee = true;
 
+  //Prompts user to input the name and salary
   while (addEmployee) {
     let firstName = prompt("Enter employee's first name:");
     let lastName = prompt("Enter employee's last name:");
